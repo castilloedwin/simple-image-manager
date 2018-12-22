@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Galería de Imágenes</title>
+</head>
+<body>
+	<ul></ul>
+	<script>
+		(function () {
+
+			'use strict'
+
+			fetch('database.json', {
+				headers: { 'Content-Type': 'application/json' }
+			})
+			.then(function (response) {
+				return response.json();
+			})
+			.then(function (data) {
+				data.forEach(function (picture) {
+					var image = new Image();
+					image.width = 200;
+					image.src = 'storage/' + picture.file_name;
+
+					var li = document.createElement('li');
+					li.appendChild(image);
+
+					document.querySelector('ul').appendChild(li);
+				})
+			});
+
+		})();
+	</script>
+</body>
+</html>
