@@ -8,4 +8,4 @@ No es necesario que uses el "input file" de forma predeterminada para subir imá
 
 ## Visuales
 
-<p align="center"><img src="https://drive.google.com/file/d/1HVF74L9H6eJ8pkGZfC4rk0bNmfBH9hB6/view" /></p>
+<p align="center"><img src="./assets/images/demo.gif" alt="" /></p>
