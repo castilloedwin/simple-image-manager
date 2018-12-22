@@ -8,4 +8,4 @@ No es necesario que uses el "input file" de forma predeterminada para subir imá
 
 ## Visuales
 
-![GIF](https://drive.google.com/open?id=1HVF74L9H6eJ8pkGZfC4rk0bNmfBH9hB6)
+![GIF](https://drive.google.com/file/d/1HVF74L9H6eJ8pkGZfC4rk0bNmfBH9hB6/view)
