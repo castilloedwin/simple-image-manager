@@ -33,7 +33,7 @@
 		.then(function (data) {
 			preload.classList.remove('activate-preload');
 			clearFormDataAndThumbnails();
-			console.log(data);
+			document.getElementById('success').innerText = data.message;
 		})
 		.catch(function (err) {
 			console.log(err);
