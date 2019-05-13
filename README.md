@@ -1,4 +1,4 @@
-# Upload Images Easily
+# Simple Image Manager
 
 Con esta pequeña interfaz gráfica, podremos subir imágenes de forma fácil y sencilla.
 
